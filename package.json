@@ -1,0 +1,28 @@
+{
+  "name": "koa_tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/preset-env": "^7.8.4",
+    "@babel/preset-react": "^7.8.3",
+    "koa": "^2.11.0",
+    "koa-body-parser": "^1.1.2",
+    "koa-ejs": "^4.3.0",
+    "koa-json": "^2.0.2",
+    "koa-router": "^8.0.6",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "babel-preset-stage-3": "^6.24.1",
+    "nodemon": "^2.0.2",
+    "parcel": "^1.12.4"
+  }
+}
